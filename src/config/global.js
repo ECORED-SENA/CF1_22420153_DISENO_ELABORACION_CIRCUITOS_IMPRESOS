@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Diseño y elaboración de circuitos impresos',
+    descripcionCurso:
+      'Un circuito eléctrico conecta componentes como resistencias, condensadores e inductores en una trayectoria cerrada. Puede operar con corriente directa o alterna y configurarse en serie, paralelo o mixto, afectando la distribución de corriente y voltaje. Los componentes incluyen resistencias, inductores, capacitores, diodos y transistores, fundamentales para controlar, almacenar o amplificar la electricidad en sistemas electrónicos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +36,66 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Circuito eléctrico ',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Circuitos en paralelo ',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Circuitos en serie ',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Circuitos mixtos ',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Componentes activos ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Diodos ',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Transistores ',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Amplificadores operacionales ',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Componentes pasivos ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Componentes básicos de un circuito eléctrico ',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Elementos de un circuito eléctrico ',
+            hash: 't_3_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,31 +145,123 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Circuito eléctrico ',
+      referencia:
+        'A Cierta Ciencia. (2022). ¿Qué son los Circuitos Eléctricos? Y sus tipos: Serie y Paralelo. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=GUESpG6inds&ab_channel=ACiertaCiencia  ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Componentes activos ',
+      referencia:
+        'Manik (2020). COMPONENTES ELECTRÓNICOS - Resumen / Idea intuitiva. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=1NRFL6YYtzg&t=25s&ab_channel=Manik  ',
+    },
+    {
+      tema: 'Diodos ',
+      referencia:
+        'Mentalidad De Ingeniería (2020). Diodos Explicados. [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=aPY3I8pG478&ab_channel=MentalidadDeIngenier%C3%ADa  ',
+    },
+    {
+      tema: 'Transistores ',
+      referencia:
+        'Mentalidad De Ingeniería (2021). Transistor Explicado - Cómo Funcionan los Transistores. [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=zh7PeHAZRLY&ab_channel=MentalidadDeIngenier%C3%ADa  ',
+    },
+    {
+      tema: 'Amplificadores operacionales ',
+      referencia:
+        'Electronica Spicus99 (2021). ¿Qué es un amplificador operacional? [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=mESXqQ-gfcg&ab_channel=ElectronicaSpicus99  ',
+    },
+    {
+      tema: 'Componentes pasivos ',
+      referencia:
+        'Ricardo Luna-Rubio (2021). ELEMENTOS PASIVOS | CIRCUITOS ELÉCTRICOS [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=Ub9yprH9IJo&ab_channel=RicardoLuna-Rubio  ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Circuito eléctrico',
+      significado:
+        'sistema cerrado que permite el flujo de corriente eléctrica. ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Corriente directa (DC)',
+      significado: 'tipo de corriente que fluye en una sola dirección. ',
+    },
+    {
+      termino: 'Corriente alterna (AC)',
+      significado: 'tipo de corriente que cambia de dirección periódicamente. ',
+    },
+    {
+      termino: 'Componente activo',
+      significado:
+        'elemento que amplifica o genera energía en el circuito, como diodos y transistores. ',
+    },
+    {
+      termino: 'Componente pasivo',
+      significado:
+        'elemento que almacena o conduce energía sin amplificar, como resistencias y condensadores. ',
+    },
+    {
+      termino: 'Diodo',
+      significado:
+        'dispositivo semiconductor que permite el flujo de corriente en una sola dirección. ',
+    },
+    {
+      termino: 'Transistor',
+      significado:
+        'dispositivo semiconductor usado para amplificar o conmutar señales en un circuito. ',
+    },
+    {
+      termino: 'Filtro',
+      significado:
+        'componente que permite el paso de ciertas frecuencias y bloquea otras. ',
+    },
+    {
+      termino: 'LED',
+      significado:
+        'diodo emisor de luz que se enciende al polarizarse en un circuito. ',
+    },
+    {
+      termino: 'Interruptor',
+      significado:
+        'dispositivo que permite abrir o cerrar el circuito para controlar el flujo de corriente. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Alexander, C. K., & Sadiku, M. N. O. (2017). Fundamentals of Electric Circuits (6th ed.). McGraw-Hill Education.',
+      link: '',
+    },
+    {
+      referencia:
+        'Boylestad, R. L., & Nashelsky, L. (2020). Electronic Devices and Circuit Theory (12th ed.). Pearson Education.',
+      link: '',
+    },
+    {
+      referencia:
+        'Dorf, R. C., & Svoboda, J. A. (2020). Introduction to Electric Circuits (10th ed.). Wiley. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Floyd, T. L. (2019). Principles of Electric Circuits (10th ed.). Pearson Education. ',
       link: '',
     },
   ],
@@ -150,8 +285,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Francisco Arnaldo Vargas Bermúdez ',
+          cargo: 'Experto temático  ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima ',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,18 +300,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Juan Daniel Polanco Muñoz',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Maadariaga',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
