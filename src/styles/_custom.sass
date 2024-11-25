@@ -92,22 +92,20 @@
 
 .slyder-f__btn i
   font-size: 1.2rem
-  background-color: #F8A230
+  background-color: #F0CF2B
   border-radius: 50px
   padding: .8rem 1rem
   box-shadow: 0px 0px 24px rgba(0, 0, 0, .3)
 
 .acordion .tarjeta
-  background-color: #FFF1F1
+  background-color: #D2FAF7
 .acordion .tarjeta.acordion__activo
-  background-color: #D5EFFB
+  background-color: #DDE9F7
 .acordion .tarjeta.acordion__activo *
   color: #12263F
 .acordion__accion__btn--a
-  border: 1px solid #952AEA
-  background-color: #952AEA
-.acordion__accion__btn--a i
-  color: #fff !important
+  border: 1px solid #F0CF2B
+  background-color: #F0CF2B
 
 .banner-interno__titulo__icono i
   color: #12263F !important
@@ -148,7 +146,7 @@
   max-width: 400px
 
 .cont_titulo_3
-  background-color: #A6F8FA
+  background-color: #FFD9EF
   border-radius: 20px
   max-width: fit-content
 
@@ -164,3 +162,157 @@
   .cont_decorativo .col
     place-self: center !important
 
+/****************************Tema 1*********************/
+.cont_1_1
+  background-color: #BDD4F0
+  border-radius: 20px
+.cont_1_2
+  background-color: #DDE9F7
+  text-align: center
+  transition: all .4s ease-in-out
+  border-radius: 23px
+  cursor: pointer
+  img
+    max-width: 90px
+    display: inline
+  &:hover
+    background-color: #A6F5F0
+  h5
+    background-color: #fff
+    padding: 3px 7px
+    max-width: fit-content
+    margin: 0 auto
+
+.cont_1_3,.cont_1_3 *
+  position: relative
+.cont_1_3:before
+  content: ''
+  position: absolute
+  width: 115%
+  height: 90%
+  top: 0
+  left: -8%
+  background-image: url(../assets/curso/tema1/13.png)
+  background-size: 100% 100%
+
+.cont_1_4
+  background-color: #DDE9F7
+  border-radius: 20px
+  figure
+    text-align: center
+  img
+    max-width: 85px
+    display: inline
+    margin: 0 auto
+    position: relative
+    margin-top: -35px
+
+@media screen and (max-width: 992px)
+  .cont_1_3:before
+    background-size: cover !important
+
+/***********************Tema 2*******************/
+.cont_2_1,.cont_2_1 *
+  position: relative
+.cont_2_1:before
+  content: ''
+  position: absolute
+  width: 115%
+  height: 100%
+  top: 0
+  left: -7%
+  background-image: url(../assets/curso/tema2/4.png)
+  background-size: 100% 100%
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #F0CF2B
+  opacity: 1
+
+.slyder-a__bullets__item
+  background-color: #FFDFF2
+  border-color: #FFDFF2
+
+.slyder-a__bullets__item--active
+  background-color: #FFA3D9 !important
+
+.slyder-a_btn--sigt, .slyder-a_btn--atrs
+  @media (max-width: 810px)
+    width: 45px
+    height: 45px
+  @media (max-width: $bp-max-sm )
+    width: 35px
+    height: 35px  
+.slyder-a_bullets_item    
+  @media (max-width: 810px)
+    width: 15px
+    height: 15px  
+    margin: 0 3px   
+  @media (max-width: $bp-max-sm)
+    width: 15px
+    height: 15px  
+    margin: 0 3px        
+
+.slyder-a
+  &__tipo-a
+    .slyder-a
+      &__bullets
+        position: absolute
+        bottom: 20px !important
+        left: 50%
+        transform: translateX(-50%)
+
+.cont_2_2,.cont_2_2 *
+  position: relative
+.cont_2_2:before
+  content: ''
+  position: absolute
+  width: 115%
+  height: 100%
+  top: 0
+  left: -7%
+  background-image: url(../assets/curso/tema2/8.png)
+  background-size: 100% 100%
+
+.tabs-a__tab
+  background-color: #DDE9F7
+
+@media screen and (max-width: 992px)
+  .cont_2_1:before,.cont_2_2:before
+    background-size: cover !important
+
+/*********************Tema 3*********************/
+.cont_3_1
+  background-color: #DDE9F7
+  border-radius: 20px
+  transition: all .4s ease-in-out
+  cursor: pointer
+  span
+    font-size: 32px
+    font-weight: bold
+  &:hover
+    background-color: #FFECF7
+
+.cont_3_2
+  background-color: #DDE9F7
+  text-align: center
+  transition: all .4s ease-in-out
+  border-radius: 14px
+  cursor: pointer
+  img
+    max-width: 140px
+    display: inline
+  &:hover
+    background-color: #D2FAF7
+
+.cont_3_3,.cont_3_3 *
+  position: relative
+.cont_3_3:before
+  content: ''
+  position: absolute
+  width: 115%
+  height: 85%
+  top: 5%
+  bottom: 10%
+  left: -7%
+  background: rgb(255,255,255)
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(233,234,248,1) 20%, rgba(233,234,248,1) 80%, rgba(255,255,255,0) 100%)

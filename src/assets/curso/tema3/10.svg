@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="71" viewBox="0 0 400 71">
+  <g id="Grupo_1117962" data-name="Grupo 1117962" transform="translate(-180.051 -4953)">
+    <path id="Trazado_901624" data-name="Trazado 901624" d="M14,0H386a14,14,0,0,1,14,14V57a14,14,0,0,1-14,14H14A14,14,0,0,1,0,57V14A14,14,0,0,1,14,0Z" transform="translate(180.051 4953)" fill="#edf3fb"/>
+    <g id="Grupo_1117885" data-name="Grupo 1117885" transform="translate(-74 -281)">
+      <text id="v_t_L_" data-name="v(t)=L " transform="translate(340.051 5278.573)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-26.473" y="0">v(t)=L </tspan></text>
+      <text id="o_bien_i_t_" data-name="o bien i(t)=" transform="translate(459.051 5278.573)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-44.231" y="0">o bien i(t)=</tspan></text>
+      <text id="_vdt" data-name="∫ vdt" transform="translate(574.051 5278.573)" fill="#12263f" font-size="30" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-19.578" y="0">∫</tspan><tspan y="0" xml:space="preserve" font-size="18"> vdt</tspan></text>
+      <text id="dt" transform="translate(390.102 5289.137)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-7.211" y="0">dt</tspan></text>
+      <text id="L" transform="translate(527.102 5289.137)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-4.332" y="0">L</tspan></text>
+      <text id="di" transform="translate(390.102 5260)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-6.629" y="0">di</tspan></text>
+      <text id="_1" data-name="1" transform="translate(527.102 5260)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-4.59" y="0">1</tspan></text>
+      <line id="Línea_590" data-name="Línea 590" x2="29" transform="translate(375.602 5269.068)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_602" data-name="Línea 602" x2="29" transform="translate(512.602 5269.068)" fill="none" stroke="#12263f" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
