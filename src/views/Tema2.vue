@@ -244,7 +244,7 @@
           .row.col-xl-11.m-auto(titulo="Seguidor de tensión")
             .col-lg-7.mb-4.mb-lg-0
               p La salida es idéntica a la entrada, lo que lo hace ideal para acoplamiento de impedancias en dos circuitos diferentes.
-              p.mb-0 Diagrama de un amplificador operacional donde la señal de entrada V_i \) se conecta a la entrada inversora del amplificador. La corriente \( I_1 \) fluye hacia la entrada inversora, mientras que la corriente \( I_2 \) recircula a través de una conexión de retroalimentación negativa desde la salida \( V_o \) hacia la entrada inversora. La corriente \( I_3 \) sale del amplificador desde la salida \( V_o \). La entrada no inversora está conectada a tierra.
+              p.mb-0 Diagrama de un amplificador operacional donde la señal de entrada \( V_i \) se conecta a la entrada inversora del amplificador. La corriente \( I_1 \) fluye hacia la entrada inversora, mientras que la corriente \( I_2 \) recircula a través de una conexión de retroalimentación negativa desde la salida \( V_o \) hacia la entrada inversora. La corriente \( I_3 \) sale del amplificador desde la salida \( V_o \). La entrada no inversora está conectada a tierra.
             .m-auto.col-lg-5.col-12.col-md-8
               figure
                 img(src="@/assets/curso/tema2/27.svg" alt="Diagrama de un amplificador operacional donde la señal de entrada Vi  se conecta a la entrada inversora del amplificador. La corriente I1 fluye hacia la entrada inversora, mientras que la corriente I2 recircula a través de una conexión de retroalimentación negativa desde la salida Vo hacia la entrada inversora. La corriente I3 sale del amplificador desde la salida Vo. La entrada no inversora está conectada a tierra.")

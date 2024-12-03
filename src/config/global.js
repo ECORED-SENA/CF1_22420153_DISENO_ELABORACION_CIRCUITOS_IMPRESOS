@@ -147,7 +147,7 @@ export default {
     {
       tema: 'Circuito eléctrico ',
       referencia:
-        'A Cierta Ciencia. (2022). ¿Qué son los Circuitos Eléctricos? Y sus tipos: Serie y Paralelo. [Archivo de video] Youtube.   ',
+        'A Cierta Ciencia. (2022). ¿Qué son los Circuitos Eléctricos? Y sus tipos: Serie y Paralelo. [Archivo de video] YouTube.   ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=GUESpG6inds&ab_channel=ACiertaCiencia  ',
@@ -155,7 +155,7 @@ export default {
     {
       tema: 'Componentes activos ',
       referencia:
-        'Manik (2020). COMPONENTES ELECTRÓNICOS - Resumen / Idea intuitiva. [Archivo de video] Youtube.   ',
+        'Manik (2020). COMPONENTES ELECTRÓNICOS - Resumen / Idea intuitiva. [Archivo de video] YouTube.   ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=1NRFL6YYtzg&t=25s&ab_channel=Manik  ',
@@ -163,7 +163,7 @@ export default {
     {
       tema: 'Diodos ',
       referencia:
-        'Mentalidad De Ingeniería (2020). Diodos Explicados. [Archivo de video] Youtube. ',
+        'Mentalidad De Ingeniería (2020). Diodos Explicados. [Archivo de video] YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=aPY3I8pG478&ab_channel=MentalidadDeIngenier%C3%ADa  ',
@@ -171,7 +171,7 @@ export default {
     {
       tema: 'Transistores ',
       referencia:
-        'Mentalidad De Ingeniería (2021). Transistor Explicado - Cómo Funcionan los Transistores. [Archivo de video] Youtube. ',
+        'Mentalidad De Ingeniería (2021). Transistor Explicado - Cómo Funcionan los Transistores. [Archivo de video] YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=zh7PeHAZRLY&ab_channel=MentalidadDeIngenier%C3%ADa  ',
@@ -179,7 +179,7 @@ export default {
     {
       tema: 'Amplificadores operacionales ',
       referencia:
-        'Electronica Spicus99 (2021). ¿Qué es un amplificador operacional? [Archivo de video] Youtube. ',
+        'Electronica Spicus99 (2021). ¿Qué es un amplificador operacional? [Archivo de video] YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=mESXqQ-gfcg&ab_channel=ElectronicaSpicus99  ',
@@ -187,7 +187,7 @@ export default {
     {
       tema: 'Componentes pasivos ',
       referencia:
-        'Ricardo Luna-Rubio (2021). ELEMENTOS PASIVOS | CIRCUITOS ELÉCTRICOS [Archivo de video] Youtube. ',
+        'Ricardo Luna-Rubio (2021). ELEMENTOS PASIVOS | CIRCUITOS ELÉCTRICOS [Archivo de video] YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=Ub9yprH9IJo&ab_channel=RicardoLuna-Rubio  ',
@@ -305,7 +305,7 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Luis Jesús Pérez Maadariaga',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -314,11 +314,6 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
