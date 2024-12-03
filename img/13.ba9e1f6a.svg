@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="71" viewBox="0 0 420 71">
+  <g id="Grupo_1117963" data-name="Grupo 1117963" transform="translate(-705.051 -5525)">
+    <path id="Trazado_901625" data-name="Trazado 901625" d="M14,0H406a14,14,0,0,1,14,14V57a14,14,0,0,1-14,14H14A14,14,0,0,1,0,57V14A14,14,0,0,1,14,0Z" transform="translate(705.051 5525)" fill="#edf3fb"/>
+    <g id="Grupo_1117889" data-name="Grupo 1117889" transform="translate(-1 -397)">
+      <text id="q_t_C_v_t_i_" data-name="q(t)=C v (t),i=" transform="translate(791.051 5963.5)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-54.404" y="0">q(t)=C v (t),i=</tspan></text>
+      <text id="_C" data-name="=C" transform="translate(904 5963.5)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-11.175" y="0">=C</tspan></text>
+      <text id="_v_t_" data-name=",v(t)=" transform="translate(978 5963.5)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-21.779" y="0">,v(t)=</tspan></text>
+      <text id="_i_dt" data-name="∫  i dt" transform="translate(1073.051 5963.637)" fill="#12263f" font-size="30" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-21.942" y="0">∫</tspan><tspan y="0" xml:space="preserve" font-size="18">  i dt</tspan></text>
+      <text id="dt" transform="translate(868.102 5977.137)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-7.211" y="0">dt</tspan></text>
+      <text id="dt-2" data-name="dt" transform="translate(938.051 5977.137)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-7.211" y="0">dt</tspan></text>
+      <text id="C" transform="translate(1023.051 5977.137)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-5.234" y="0">C</tspan></text>
+      <text id="dq" transform="translate(868.102 5948)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-9.027" y="0">dq</tspan></text>
+      <text id="dV" transform="translate(938.051 5948)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-9.738" y="0">dV</tspan></text>
+      <text id="_1" data-name="1" transform="translate(1023.051 5948)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-4.59" y="0">1</tspan></text>
+      <line id="Línea_603" data-name="Línea 603" x2="29" transform="translate(853.602 5957.068)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_604" data-name="Línea 604" x2="29" transform="translate(923.551 5957.068)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_605" data-name="Línea 605" x2="29" transform="translate(1008.551 5957.068)" fill="none" stroke="#12263f" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
