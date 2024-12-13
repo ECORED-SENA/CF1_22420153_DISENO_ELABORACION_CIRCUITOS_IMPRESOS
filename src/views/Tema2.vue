@@ -58,21 +58,21 @@
               p En este tipo de rectificador, la salida corresponde a un solo semiciclo de la señal de entrada sinusoidal (ya sea positivo o negativo), dependiendo de la orientación del diodo.
             .col-lg-5
               figure.m-auto.col-12.col-md-8.col-lg-12
-                img(src='@/assets/curso/tema2/5.svg')
+                img(src='@/assets/curso/tema2/5.png')
           .row.pt-lg-4.col-xl-11.m-auto
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h4 Rectificación de onda completa (con transformador)
               p Este rectificador de onda completa utiliza dos diodos y un transformador con tap central. Cada diodo conduce en un semiciclo, aprovechando toda la señal de entrada. Requiere el transformador para referencia a 0 voltios.
             .col-lg-5
               figure.m-auto.col-12.col-md-8.col-lg-12
-                img(src='@/assets/curso/tema2/6.svg')
+                img(src='@/assets/curso/tema2/6.png')
           .row.pt-lg-4.col-xl-11.m-auto
             .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
               h4 Rectificación de onda completa (con diodos)
               p Utiliza cuatro diodos en una configuración de puente, permitiendo el uso de ambos semiciclos de la señal de entrada sin necesidad de un tap central. Es más eficiente y se usa en instrumentación y medición.
             .col-lg-5
               figure.m-auto.col-12.col-md-8.col-lg-12
-                img(src='@/assets/curso/tema2/7.svg')
+                img(src='@/assets/curso/tema2/7.png')
     
     .cont_decorativo.mb-4.mt-5(data-aos="fade-right")
       .row
@@ -200,25 +200,25 @@
               p.mb-0 La salida corresponde a la diferencia entre las dos señales de entrada, que pueden ser amplificadas o atenuadas.
             .m-auto.col-lg-5.col-12.col-md-8
               figure
-                img(src="@/assets/curso/tema2/20.svg" alt="Circuito de rectificación de media onda que incluye un diodo conectado en serie con una fuente de señal de entrada, mostrando la señal de entrada y la señal rectificada en cada extremo. ")
+                img(src="@/assets/curso/tema2/20.png" alt="Circuito de rectificación de media onda que incluye un diodo conectado en serie con una fuente de señal de entrada, mostrando la señal de entrada y la señal rectificada en cada extremo. ")
           .row.col-xl-11.m-auto(titulo="Amplificador no inversor")
             .col-lg-7.mb-4.mb-lg-0
               p.mb-0 Amplifica una señal de entrada sin invertir su fase, es decir, la señal de salida mantiene la misma fase que la señal de entrada.
             .m-auto.col-lg-5.col-12.col-md-8
               figure
-                img(src="@/assets/curso/tema2/21.svg" alt="Diagrama de un amplificador diferencial que muestra dos entradas de voltaje, V1 y V2, cada una conectada a resistencias de entrada R1 y R2, respectivamente. La entrada negativa del amplificador operacional está conectada a R1 y R2, mientras que la entrada positiva está conectada a una resistencia R4 conectada a tierra. La salida Vout está conectada a la resistencia de retroalimentación R3, que va desde la salida de vuelta a la entrada negativa del amplificador. ")
+                img(src="@/assets/curso/tema2/21.png" alt="Diagrama de un amplificador diferencial que muestra dos entradas de voltaje, V1 y V2, cada una conectada a resistencias de entrada R1 y R2, respectivamente. La entrada negativa del amplificador operacional está conectada a R1 y R2, mientras que la entrada positiva está conectada a una resistencia R4 conectada a tierra. La salida Vout está conectada a la resistencia de retroalimentación R3, que va desde la salida de vuelta a la entrada negativa del amplificador. ")
           .row.col-xl-11.m-auto(titulo="Amplificador inversor")
             .col-lg-7.mb-4.mb-lg-0
               p.mb-0 La señal de salida es la señal de entrada amplificada o atenuada con su fase invertida.
             .m-auto.col-lg-5.col-12.col-md-8
               figure
-                img(src="@/assets/curso/tema2/22.svg" alt="Diagrama de un amplificador operacional no inversor donde Vin ingresa a través de la resistencia R3, conectándose a la entrada no inversora del amplificador. La entrada inversora está conectada a una red de resistencias R2 y R1, con R1 conectada a tierra y R2 conectada a la salida Vout.")
+                img(src="@/assets/curso/tema2/22.png" alt="Diagrama de un amplificador operacional no inversor donde Vin ingresa a través de la resistencia R3, conectándose a la entrada no inversora del amplificador. La entrada inversora está conectada a una red de resistencias R2 y R1, con R1 conectada a tierra y R2 conectada a la salida Vout.")
           .row.col-xl-11.m-auto(titulo="Amplificador sumador inversor")
             .col-lg-7.mb-4.mb-lg-0
               p.mb-0 Produce una salida que es la suma algebraica invertida de los voltajes de entrada aplicados (V1, V2 y V3).
             .m-auto.col-lg-5.col-12.col-md-8
               figure
-                img(src="@/assets/curso/tema2/23.svg" alt="Diagrama de un amplificador operacional sumador. Las entradas  pasan por resistencias RG1, RG2, y RG3 respectivamente, conectándose a la entrada inversora del amplificador. La resistencia de realimentación RFRF conecta la salida VOUT a la entrada inversora, mientras que la entrada no inversora está conectada a tierra.")
+                img(src="@/assets/curso/tema2/23.png" alt="Diagrama de un amplificador operacional sumador. Las entradas  pasan por resistencias RG1, RG2, y RG3 respectivamente, conectándose a la entrada inversora del amplificador. La resistencia de realimentación RFRF conecta la salida VOUT a la entrada inversora, mientras que la entrada no inversora está conectada a tierra.")
     
     .row.mt-lg-4
       .col-lg(data-aos="zoom-in")
@@ -228,26 +228,26 @@
               p.mb-0 Similar al sumador inversor, pero no invierte la señal.
             .m-auto.col-lg-5.col-12.col-md-8
               figure
-                img(src="@/assets/curso/tema2/24.svg" alt="Diagrama de un amplificador diferencial con dos entradas V1 y V2 a través de resistencias R1 y R2, respectivamente. La salida Vo está conectada a través de resistencias R3 y R4, con corrientes I1,I2, I3 y I4 indicadas. La señal de referencia VEVE se encuentra entre las resistencias de entrada. ")
+                img(src="@/assets/curso/tema2/24.png" alt="Diagrama de un amplificador diferencial con dos entradas V1 y V2 a través de resistencias R1 y R2, respectivamente. La salida Vo está conectada a través de resistencias R3 y R4, con corrientes I1,I2, I3 y I4 indicadas. La señal de referencia VEVE se encuentra entre las resistencias de entrada. ")
           .row.col-xl-11.m-auto(titulo="Amplificador integrador")
             .col-lg-7.mb-4.mb-lg-0
               p.mb-0 Realiza una operación de integración sobre la señal de entrada, generando una salida proporcional al área bajo la curva de la onda de entrada.
             .m-auto.col-lg-5.col-12.col-md-8
               figure
-                img(src="@/assets/curso/tema2/25.svg" alt="Diagrama de un circuito integrado por un amplificador operacional configurado como un filtro. La entrada de señal Vin pasa a través de una resistencia RR, conectada a la entrada inversora del amplificador. Un capacitor C conecta la salida Vout a la entrada inversora, mientras que la entrada no inversora está conectada a tierra. ")
+                img(src="@/assets/curso/tema2/25.png" alt="Diagrama de un circuito integrado por un amplificador operacional configurado como un filtro. La entrada de señal Vin pasa a través de una resistencia RR, conectada a la entrada inversora del amplificador. Un capacitor C conecta la salida Vout a la entrada inversora, mientras que la entrada no inversora está conectada a tierra. ")
           .row.col-xl-11.m-auto(titulo="Amplificador diferenciador")
             .col-lg-7.mb-4.mb-lg-0
               p.mb-0 Realiza una derivación de la señal de entrada e invierte la señal de salida.
             .m-auto.col-lg-5.col-12.col-md-8
               figure
-                img(src="@/assets/curso/tema2/26.svg" alt="Diagrama de un⁅𝑐⁆⁅𝑖⁆⁅𝑟⁆⁅𝑐⁆⁅𝑢⁆⁅𝑖𝑡⁆⁅𝑜⁆⁅ ⁆⁅𝑐⁆on un amplificador operacional configurado como un filtro de paso alto. La señal de entrada V  pasa a través de un capacitor C hacia la entrada inversora del amplificador. Una resistencia R conecta la salida Vout_ a la entrada inversora, mientras que la entrada no inversora está conectada a tierra.")
+                img(src="@/assets/curso/tema2/26.png" alt="Diagrama de un⁅𝑐⁆⁅𝑖⁆⁅𝑟⁆⁅𝑐⁆⁅𝑢⁆⁅𝑖𝑡⁆⁅𝑜⁆⁅ ⁆⁅𝑐⁆on un amplificador operacional configurado como un filtro de paso alto. La señal de entrada V  pasa a través de un capacitor C hacia la entrada inversora del amplificador. Una resistencia R conecta la salida Vout_ a la entrada inversora, mientras que la entrada no inversora está conectada a tierra.")
           .row.col-xl-11.m-auto(titulo="Seguidor de tensión")
             .col-lg-7.mb-4.mb-lg-0
               p La salida es idéntica a la entrada, lo que lo hace ideal para acoplamiento de impedancias en dos circuitos diferentes.
               p.mb-0 Diagrama de un amplificador operacional donde la señal de entrada \( V_i \) se conecta a la entrada inversora del amplificador. La corriente \( I_1 \) fluye hacia la entrada inversora, mientras que la corriente \( I_2 \) recircula a través de una conexión de retroalimentación negativa desde la salida \( V_o \) hacia la entrada inversora. La corriente \( I_3 \) sale del amplificador desde la salida \( V_o \). La entrada no inversora está conectada a tierra.
             .m-auto.col-lg-5.col-12.col-md-8
               figure
-                img(src="@/assets/curso/tema2/27.svg" alt="Diagrama de un amplificador operacional donde la señal de entrada Vi  se conecta a la entrada inversora del amplificador. La corriente I1 fluye hacia la entrada inversora, mientras que la corriente I2 recircula a través de una conexión de retroalimentación negativa desde la salida Vo hacia la entrada inversora. La corriente I3 sale del amplificador desde la salida Vo. La entrada no inversora está conectada a tierra.")
+                img(src="@/assets/curso/tema2/27.png" alt="Diagrama de un amplificador operacional donde la señal de entrada Vi  se conecta a la entrada inversora del amplificador. La corriente I1 fluye hacia la entrada inversora, mientras que la corriente I2 recircula a través de una conexión de retroalimentación negativa desde la salida Vo hacia la entrada inversora. La corriente I3 sale del amplificador desde la salida Vo. La entrada no inversora está conectada a tierra.")
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure 
           img(src="@/assets/curso/tema2/28.png")
@@ -271,37 +271,37 @@
               p Permite el paso de frecuencias desde 0 Hz hasta una frecuencia de corte (fc), bloqueando las frecuencias superiores. La señal de salida se atenúa progresivamente al acercarse a la frecuencia de corte, bloqueando completamente las frecuencias superiores a fc.
             .col-lg.mb-4.mb-lg-0(style="place-self:center;")
               figure.m-auto.col-12.col-md-8.col-lg-12
-                img(src='@/assets/curso/tema2/29.svg' alt="El circuito muestra un amplificador diferencial con dos entradas, V1 y V2, que se conectan a las resistencias R1 y R2 respectivamente. La señal se amplifica en el amplificador operacional, cuya salida Vout está determinada por la diferencia entre V1 y V2, modulada por las resistencias del circuito. ")
+                img(src='@/assets/curso/tema2/29.png' alt="El circuito muestra un amplificador diferencial con dos entradas, V1 y V2, que se conectan a las resistencias R1 y R2 respectivamente. La señal se amplifica en el amplificador operacional, cuya salida Vout está determinada por la diferencia entre V1 y V2, modulada por las resistencias del circuito. ")
             .col-lg.mb-4.mb-lg-0(style="place-self:center;")
               figure.m-auto.col-12.col-md-8.col-lg-12
-                img(src='@/assets/curso/tema2/30.svg' alt="La imagen muestra una gráfica de una curva descendente. La curva parece representar una caída o disminución gradual, lo cual podría ilustrar un fenómeno de decaimiento o atenuación.")
+                img(src='@/assets/curso/tema2/30.png' alt="La imagen muestra una gráfica de una curva descendente. La curva parece representar una caída o disminución gradual, lo cual podría ilustrar un fenómeno de decaimiento o atenuación.")
           .row.pt-lg-4.col-xl-11.m-auto
             .col-lg.mb-4.mb-lg-0(style="place-self:center;")
               h4 Filtro pasa alto
               p Bloquea frecuencias bajas, permitiendo el paso de las altas. La señal de salida alcanza el 100 % de la señal original solo cuando supera la frecuencia de corte para la cual se diseñó el filtro.
             .col-lg.mb-4.mb-lg-0(style="place-self:center;")
               figure.m-auto.col-12.col-md-8.col-lg-12
-                img(src='@/assets/curso/tema2/31.svg' alt="La imagen muestra un amplificador operacional LM324N con entrada Vin que pasa por un condensador C y una resistencia R. La entrada inversora está conectada a tierra con R1, y la realimentación se logra con RF entre la salidaVout y la entrada inversora. ")
+                img(src='@/assets/curso/tema2/31.png' alt="La imagen muestra un amplificador operacional LM324N con entrada Vin que pasa por un condensador C y una resistencia R. La entrada inversora está conectada a tierra con R1, y la realimentación se logra con RF entre la salidaVout y la entrada inversora. ")
             .col-lg.mb-4.mb-lg-0(style="place-self:center;")
               figure.m-auto.col-12.col-md-8.col-lg-12
-                img(src='@/assets/curso/tema2/32.svg' alt="La imagen muestra una curva ascendente. ")
+                img(src='@/assets/curso/tema2/32.png' alt="La imagen muestra una curva ascendente. ")
           .row.pt-lg-4.col-xl-11.m-auto
             .col-lg.mb-4.mb-lg-0(style="place-self:center;")
               h4 Filtro pasa banda
               p Deja pasar señales en un rango de frecuencias determinado por un límite inferior (f1) y un límite superior (f2). Las frecuencias fuera de este rango son atenuadas.
             .col-lg.mb-4.mb-lg-0(style="place-self:center;")
               figure.m-auto.col-12.col-md-8.col-lg-12
-                img(src='@/assets/curso/tema2/33.svg' alt="La imagen muestra un diagrama de un circuito eléctrico con varios componentes. A la izquierda está marcado el punto de salida Vo en rojo, seguido de una resistencia y un capacitor en serie. A la derecha se encuentra un amplificador operacional con un símbolo de triángulo, con sus entradas positiva y negativa indicadas. El circuito finaliza en el punto Vs, también resaltado en rojo a la derecha. ")
+                img(src='@/assets/curso/tema2/33.png' alt="La imagen muestra un diagrama de un circuito eléctrico con varios componentes. A la izquierda está marcado el punto de salida Vo en rojo, seguido de una resistencia y un capacitor en serie. A la derecha se encuentra un amplificador operacional con un símbolo de triángulo, con sus entradas positiva y negativa indicadas. El circuito finaliza en el punto Vs, también resaltado en rojo a la derecha. ")
           .row.pt-lg-4.col-xl-11.m-auto
             .col-lg.mb-4.mb-lg-0(style="place-self:center;")
               h4 Filtro rechaza banda
               p Bloquea señales en un rango específico de frecuencias (f1 a f2), permitiendo el paso de aquellas que estén fuera de este rango.
             .col-lg.mb-4.mb-lg-0(style="place-self:center;")
               figure.m-auto.col-12.col-md-8.col-lg-12
-                img(src='@/assets/curso/tema2/34.svg' alt='La  imagen presenta una gráfica de tipo "curva de campana", que muestra cómo una variable aumenta gradualmente, alcanza un punto máximo y luego disminuye de forma simétrica. ')
+                img(src='@/assets/curso/tema2/34.png' alt='La  imagen presenta una gráfica de tipo "curva de campana", que muestra cómo una variable aumenta gradualmente, alcanza un punto máximo y luego disminuye de forma simétrica. ')
             .col-lg.mb-4.mb-lg-0(style="place-self:center;")
               figure.m-auto.col-12.col-md-8.col-lg-12
-                img(src='@/assets/curso/tema2/35.svg' alt='La segunda imagen muestra una gráfica en forma de "curva de valle" , que representa cómo una variable disminuye gradualmente hasta alcanzar un punto mínimo en el centro, antes de volver a aumentar simétricamente.')
+                img(src='@/assets/curso/tema2/35.png' alt='La segunda imagen muestra una gráfica en forma de "curva de valle" , que representa cómo una variable disminuye gradualmente hasta alcanzar un punto mínimo en el centro, antes de volver a aumentar simétricamente.')
     
     .cont_decorativo.mb-4.mt-5(data-aos="fade-right")
       .row
